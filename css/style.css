@@ -9,3 +9,7 @@
     width: 100%;
     color: white;
  }
+
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
